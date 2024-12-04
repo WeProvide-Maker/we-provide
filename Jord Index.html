@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>We Provide</title>
+    <!-- Include Google Font (Poppins) -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Include Font Awesome for social media logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        /* General Body Settings */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #ff4081, #1e88e5);
+            color: white;
+        }
+        /* Header Styles */
+        header {
+            background: rgba(0, 0, 0, 0.6);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin-bottom: 10px;
+            animation: slideIn 6s ease-in-out infinite;
+            color: #FFB74D;
+            font-style: italic;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+        header p {
+            font-size: 1.2em;
+        }
+        /* Hero Section with OnlyFans Background */
+        .hero {
+            background: url('https://upload.wikimedia.org/wikipedia/en/c/cc/OnlyFans_logo.svg') center/cover no-repeat;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+            box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.6);
+        }
+        .hero h2 {
+            font-size: 4em;
+            margin: 0;
+            font-weight: 700;
+            color: #2C3E50;
+            letter-spacing: 1px;
+            animation: vibrate 1s ease-in-out infinite;
+        }
+        .hero p {
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        /* Social Links Section */
+        .social-links {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .social-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.5em;
+            margin: 0 15px;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #ff4081;
+        }
+        .social-links i {
+            margin-right: 10px; /* Add some space between logo and text */
+        }
+
+        /* Vibration effect */
+        @keyframes vibrate {
+            0% {
+                transform: translateX(0);
+            }
+            25% {
+                transform: translateX(-5px);
+            }
+            50% {
+                transform: translateX(5px);
+            }
+            75% {
+                transform: translateX(-5px);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+
+        /* Home Button */
+        .home-btn {
+            display: block;
+            width: 200px;
+            margin: 40px auto;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .home-btn:hover {
+            background-color: #388E3C;
+        }
+
+        /* Background for OF section */
+        .of-background {
+            background: url('') center/cover no-repeat;
+            background-size: cover;
+            padding: 100px 20px;
+            text-align: center;
+            color: white;
+            box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.6);
+        }
+
+        /* Additional Business Statement */
+        .business-statement {
+            font-size: 1.5em;
+            color: #FFF;
+            font-weight: 600;
+            margin-top: 20px;
+            text-align: center;
+            animation: vibrate 1s ease-in-out infinite; /* Optional: add vibration effect */
+        }
+
+        /* Offer Details Styling */
+        .offer-details {
+            font-size: 1.3em;
+            color: #FFF;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 600;
+            background-color: rgba(0, 0, 0, 0.6);
+            padding: 15px;
+            border-radius: 5px;
+        }
+
+        /* Services Section (Visible Immediately) */
+        .services {
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .services li {
+            font-size: 1.2em;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>We Provide</h1>
+        <p>We are the innovators your competitors wish they had invested in.</p>
+    </header>
+
+    <div id="home" class="hero">
+        <h2>WHAT YOU NEED?</h2>
+        <p>We Will Provide</p>
+    </div>
+
+    <!-- New Business Statement Added Here -->
+    <p class="business-statement">We generate AI-powered videos for your business growth. Let's bring your ideas to life with cutting-edge technology.</p>
+
+    <!-- Social Links Section with Instagram and Telegram Logos -->
+    <div class="social-links">
+        <p>Follow us on Instagram:</p>
+        <a href="https://instagram.com/manghudbatignawng" target="_blank"><i class="fab fa-instagram"></i>@manghudbatignawng</a>
+        <a href="https://instagram.com/jordawee" target="_blank"><i class="fab fa-instagram"></i>@jordawee</a>
+    </div>
+
+    <div id="telegram" class="telegram-links">
+        <p>Contact us on Telegram:</p>
+        <a href="https://t.me/VFamador" target="_blank"><i class="fab fa-telegram"></i>@VFamador</a>
+        <a href="https://t.me/ChrisCassas" target="_blank"><i class="fab fa-telegram"></i>@ChrisCassas</a>
+    </div>
+
+    <!-- Services Section (Visible Immediately) -->
+    <div class="services">
+        <h2>Our Services:</h2>
+        <ul>
+            <li>Chatting on your personal account</li>
+            <li>Generate custom videos for your brand</li>
+            <li>Increase traffic to your profile</li>
+            <li>Shoutouts for shoutouts (SFS)</li>
+            <li>Content strategy and growth consulting</li>
+        </ul>
+    </div>
+
+    <a href="#home" class="home-btn">Back to Home</a>
+
+    <footer>
+        <p>&copy; 2024 We Provide. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
